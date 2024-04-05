@@ -1,0 +1,61 @@
+DATA = 09/04/2024&
+HORARIO = 12:30&
+SALA = &TEXTO = Credenciamento&
+
+HORARIO = 14:00&
+SALA = Auditório Principal – SALA AROEIRAS&TEXTO = Cerimônia de Abertura \n A responsabilidade dos entes federativos na manutenção ou extinção dos Regimes Próprios \n Palestrante: Dra. Magadar Briguet \n Moderadores: Daniel/Birigui e João Figueiredo/Jundiaí&
+
+HORARIO = 15:30&
+SALA = &TEXTO = Coffee Break – Área de Exposições&
+
+HORARIO = 16:00&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Investimentos em Renda Variável: \n como o ciclo de juros impacta os \n resultados das empresas \n Palestrante: \n Roberto Esteves \n Moderador: Correia/Indaiatuba&
+SALA = SALA JACARANDÁ&TEXTO = Licitações: pontos de atenção da \n Lei 14.133/2021 \n Palestrante: \n Rita \n Moderador: Adauto/Votuporanga&
+SALA = SALA IPÊ&TEXTO = Aposentadoria do servidor com deficiência \n Palestrante: Vera Maria Corrêa \n Queiroz \n Moderador: Fred/Barretos&
+
+HORARIO = 17:30&
+SALA = &TEXTO = Coffee break verão - Área de Exposições&
+
+HORARIO = 18:00&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Longevidade Financeira: Como \n cuidar dos Aposentados e \n Pensionistas do seu RPPS \n Palestrante: \n Gleisson Cardoso Rubin \n Moderador: Alessandra/Guarulhos&
+SALA = SALA JACARANDÁ&TEXTO = Gestão e Governança no RPPS \n Palestrantes: \n Adriano Antônio Pazianoto \n (RIOPRETOPREV) \n Edler Antonio da Silva \n (Guarujá Previdência) \n João Carlos Figueiredo \n (IPREJUN) \n Moderador: Wilclem/SJRP&
+SALA = SALA IPÊ&TEXTO = ALM- Instrumento de Gestão \n para Busca Meta Atuarial \n Palestrante: \n Ronaldo Borges \n Moderador: Pedro Ivo/Mogi das \n Cruzes&
+
+HORARIO = 19:00&
+SALA = &TEXTO = Coquetel oferecido pela APEPREM - Área Piscinas&
+
+DATA = 10/04/2024&
+HORARIO = 09:00&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = O Tribunal de Contas e o controle \n dos RPPS \n Palestrante: \n Sara Maria Rufino de Sousa \n Moderador: André/Embu das Artes&
+SALA = SALA JACARANDÁ&TEXTO = Equilibrio entre Base de \n Contribuição e cálculo dos \n proventos- natureza Juridica e \n reflexo Previdenciario das parcelas \n pecuniárias \n Palestrante: \n Douglas Figueiredo \n Moderador: Alessandra/Guarulhos&
+SALA = SALA IPÊ&TEXTO = Gestão dos investimentos: casos \n práticos \n Palestrantes: \n Isadora Ghannam \n Marcelo Vizioli Rosa (Iprejun) \n Tiago Cesar Oliveira Andrade \n (Fuprevit) \n Moderador: Correia/Indaiatuba&
+
+HORARIO = 10:30&
+SALA = &TEXTO = Coffee Break - Área de Exposições&
+
+HORARIO = 11:00&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Principais Aspectos dos Novos \n Manuais do Pró-Gestão e \n Certificação Profissional \n Palestrantes: \n Marcia Paes Caldas \n Maria Silvana Barbosa Frigo \n Moderador: Sirleide/Ubatuba&
+SALA = SALA JACARANDÁ&TEXTO = Estratégias de investimentos em \n Renda Fixa e Renda Variável para \n RPPS em cenário de queda de \n juros \n Palestrantes: \n Fernanda Proppe Feijó \n Diogo Souto \nModerador: Sérgio/Pitangueiras&
+SALA = SALA IPÊ&TEXTO = Transformação Digital com \n Responsabilidade: RPPS e a \n Adequação à LGPD \n Palestrante: Ramon Augusto Leal \n Moderador: André/Embu das \n Artes& 
+
+HORARIO = 12:30&
+SALA = &TEXTO = Almoço oferecido pela APEPREM - Restaurante/ Área Piscinas&
+
+HORARIO = 14:00&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = O Resgate de Investimentos com \n Rentabilidade Negativa \n Palestrantes: \n Gustavo Lopes Sinay Neves \n Vitor Leitão \n Moderador: João \n Figueiredo/Jundiaí&
+SALA = SALA JACARANDÁ&TEXTO = Previdência Complementar - \n Consequências da não \n implantação do regime e temas \n relevantes em discussão \n Palestrantes: \n Marcia Paim Romera \n Fabiana Ishikawa \n Moderador: Waldemar \n Cesar/Bertioga&
+SALA = SALA IPÊ&TEXTO = A importância do Censo \n previdenciario no Cálculo \n Atuarial \n Palestrantes: \n Richard Mendes Dutzamann \n Roosevelt Benedictos A. Silva) \n Moderador: Cláudia/Leme&
+
+HORARIO = 15:30&
+SALA = &TEXTO = Coffee Break - Área de Exposições&
+
+HORARIO = 16:00&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Operacionalizando os \n Sistemas do MPS \n Palestrante: José Wagner da \n Silva Marcelino \n Moderador: Sirleide/Ubatuba&
+SALA = SALA JACARANDÁ&TEXTO = Fundos Estruturados: FIP e \n Opções de Multimercado \n Palestrantes: \n Luan Augusto \n Renato Abissamra Filho \n Moderador: Adauto/Votuporanga&
+SALA = SALA IPÊ&TEXTO = Aposentadoria e Pensão por \n Morte: questões relevantes na \n Gestão Previdenciária \n Palestrante: \n Leonardo da Silva Motta \n Moderador: Clayton/Rubineia& 
+
+HORARIO = 17:30&
+SALA = &TEXTO = Assembléia Geral Associados - Sala Jacarandá&
+
+HORARIO = 20:00&
+SALA = &TEXTO = Jantar Congressistas/Confraternização - Área Piscinas&
