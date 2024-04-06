@@ -1,0 +1,14 @@
+PALESTRA = 01&
+HORARIO = 16h&
+NOME = Licitações: pontos de \n atenção da Lei \n 14.133/2021&
+PALESTRANTE = Rita Veronez \n Sala Jacarandá&
+
+PALESTRA = 02&
+HORARIO = 16h&
+NOME = Investimentos em \n Renda Variável: como \n o ciclo de juros \n impacta os resultados \n das empresas&
+PALESTRANTE = Roberto Esteves \n Sala Aroreiras&
+
+PALESTRA = 03&
+HORARIO = 16h&
+NOME = Aposentadoria do servidor com deficiência&
+PALESTRANTE = Vera Maria Corrêa Queiroz \n Sala Aroeiras&
