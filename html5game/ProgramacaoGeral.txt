@@ -9,9 +9,9 @@ HORARIO = 15:30&
 SALA = &TEXTO = Coffee Break – Área de Exposições&
 
 HORARIO = 16:00&
-SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Investimentos em Renda Variável: \n como o ciclo de juros impacta os \n resultados das empresas \n Palestrante: \n Roberto Esteves \n Moderador: Correia/Indaiatuba&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Investimentos em \n Renda Variável: \n como o ciclo de juros impacta os \n resultados das empresas \n Palestrante: Roberto Esteves \n Moderador: Correia/Indaiatuba&
 SALA = SALA JACARANDÁ&TEXTO = Licitações: pontos de atenção da \n Lei 14.133/2021 \n Palestrante: \n Rita \n Moderador: Adauto/Votuporanga&
-SALA = SALA IPÊ&TEXTO = Aposentadoria do servidor com deficiência \n Palestrante: Vera Maria Corrêa \n Queiroz \n Moderador: Fred/Barretos&
+SALA = SALA IPÊ&TEXTO = Aposentadoria do servidor \n com deficiência \n Palestrante: Vera Maria Corrêa \n Queiroz \n Moderador: Fred/Barretos&
 
 HORARIO = 17:30&
 SALA = &TEXTO = Coffee break verão - Área de Exposições&
@@ -26,8 +26,8 @@ SALA = &TEXTO = Coquetel oferecido pela APEPREM - Área Piscinas&
 
 DATA = 10/04/2024&
 HORARIO = 09:00&
-SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = O Tribunal de Contas e o controle \n dos RPPS \n Palestrante: \n Sara Maria Rufino de Sousa \n Moderador: André/Embu das Artes&
-SALA = SALA JACARANDÁ&TEXTO = Equilibrio entre Base de \n Contribuição e cálculo dos \n proventos- natureza Juridica e \n reflexo Previdenciario das parcelas \n pecuniárias \n Palestrante: \n Douglas Figueiredo \n Moderador: Alessandra/Guarulhos&
+SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = O Tribunal de Contas e o \n controle dos RPPS \n Palestrante: \n Sara Maria Rufino de Sousa \n Moderador: André/Embu das Artes&
+SALA = SALA JACARANDÁ&TEXTO = Equilibrio entre Base de \n Contribuição e cálculo dos \n proventos- natureza Juridica e \n reflexo Previdenciario das \n parcelas pecuniárias \n Palestrante: \n Douglas Figueiredo \n Moderador: Alessandra/Guarulhos&
 SALA = SALA IPÊ&TEXTO = Gestão dos investimentos: casos \n práticos \n Palestrantes: \n Isadora Ghannam \n Marcelo Vizioli Rosa (Iprejun) \n Tiago Cesar Oliveira Andrade \n (Fuprevit) \n Moderador: Correia/Indaiatuba&
 
 HORARIO = 10:30&
@@ -35,7 +35,7 @@ SALA = &TEXTO = Coffee Break - Área de Exposições&
 
 HORARIO = 11:00&
 SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Principais Aspectos dos Novos \n Manuais do Pró-Gestão e \n Certificação Profissional \n Palestrantes: \n Marcia Paes Caldas \n Maria Silvana Barbosa Frigo \n Moderador: Sirleide/Ubatuba&
-SALA = SALA JACARANDÁ&TEXTO = Estratégias de investimentos em \n Renda Fixa e Renda Variável para \n RPPS em cenário de queda de \n juros \n Palestrantes: \n Fernanda Proppe Feijó \n Diogo Souto \nModerador: Sérgio/Pitangueiras&
+SALA = SALA JACARANDÁ&TEXTO = Estratégias de investimentos em \n Renda Fixa e Renda Variável \n para RPPS em cenário de \n queda de juros \n Palestrantes: \n Fernanda Proppe Feijó \n Diogo Souto \nModerador: Sérgio/Pitangueiras&
 SALA = SALA IPÊ&TEXTO = Transformação Digital com \n Responsabilidade: RPPS e a \n Adequação à LGPD \n Palestrante: Ramon Augusto Leal \n Moderador: André/Embu das \n Artes& 
 
 HORARIO = 12:30&
