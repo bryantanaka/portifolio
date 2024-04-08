@@ -10,7 +10,7 @@ SALA = &TEXTO = Coffee Break – Área de Exposições&
 
 HORARIO = 16:00&
 SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = Investimentos em \n Renda Variável: \n como o ciclo de juros impacta os \n resultados das empresas \n Palestrante: Roberto Esteves \n Moderador: Correia/Indaiatuba&
-SALA = SALA JACARANDÁ&TEXTO = Licitações: pontos de atenção da \n Lei 14.133/2021 \n Palestrante: \n Rita \n Moderador: Adauto/Votuporanga&
+SALA = SALA JACARANDÁ&TEXTO = Licitações: pontos de atenção da \n Lei 14.133/2021 \n Palestrante: \n Rita Veronez \n Moderador: Adauto/Votuporanga&
 SALA = SALA IPÊ&TEXTO = Aposentadoria do servidor \n com deficiência \n Palestrante: Vera Maria Corrêa \n Queiroz \n Moderador: Fred/Barretos&
 
 HORARIO = 17:30&
@@ -22,7 +22,7 @@ SALA = SALA JACARANDÁ&TEXTO = Gestão e Governança no RPPS \n Palestrantes: \n
 SALA = SALA IPÊ&TEXTO = ALM- Instrumento de Gestão \n para Busca Meta Atuarial \n Palestrante: \n Ronaldo Borges \n Moderador: Pedro Ivo/Mogi das \n Cruzes&
 
 HORARIO = 19:00&
-SALA = &TEXTO = Coquetel oferecido pela APEPREM - Área Piscinas&
+SALA = &TEXTO = Coquetel oferecido pela APEPREM com apoio da Itajubá Investimentos - \n "Área Piscinas"&
 
 DATA = 10/04/2024&
 HORARIO = 09:00&
@@ -44,7 +44,7 @@ SALA = &TEXTO = Almoço oferecido pela APEPREM - Restaurante/ Área Piscinas&
 HORARIO = 14:00&
 SALA = Auditório Principal \n SALA AROEIRAS&TEXTO = O Resgate de Investimentos com \n Rentabilidade Negativa \n Palestrantes: \n Gustavo Lopes Sinay Neves \n Vitor Leitão \n Moderador: João \n Figueiredo/Jundiaí&
 SALA = SALA JACARANDÁ&TEXTO = Previdência Complementar - \n Consequências da não \n implantação do regime e temas \n relevantes em discussão \n Palestrantes: \n Marcia Paim Romera \n Fabiana Ishikawa \n Moderador: Waldemar \n Cesar/Bertioga&
-SALA = SALA IPÊ&TEXTO = A importância do Censo \n previdenciario no Cálculo \n Atuarial \n Palestrantes: \n Richard Mendes Dutzamann \n Roosevelt Benedictos A. Silva) \n Moderador: Cláudia/Leme&
+SALA = SALA IPÊ&TEXTO = A importância do Censo \n previdenciário no Cálculo \n Atuarial \n Palestrantes: \n Richard Mendes Dutzamann \n Roosevelt Benedictos A. Silva) \n Moderador: Cláudia/Leme&
 
 HORARIO = 15:30&
 SALA = &TEXTO = Coffee Break - Área de Exposições&
@@ -58,7 +58,7 @@ HORARIO = 17:30&
 SALA = &TEXTO = Assembléia Geral Associados - Sala Jacarandá&
 
 HORARIO = 20:00&
-SALA = &TEXTO = Jantar Congressistas/Confraternização - Área Piscinas&
+SALA = &TEXTO = Jantar Congressistas/Confraternização com apoio da Empire Capital - \n "Área Piscinas"&
 
 DATA = 11/04/2024&
 HORARIO = 09:00&

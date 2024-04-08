@@ -1,14 +1,29 @@
 PALESTRA = 01&
 HORARIO = 16h&
 NOME = Licitações: pontos de \n atenção da Lei \n 14.133/2021&
-PALESTRANTE = Rita Veronez \n Sala Jacarandá&
+PALESTRANTE = Rita Veronez&
+SALA = Sala Jacarandá&
 
 PALESTRA = 02&
 HORARIO = 16h&
 NOME = Investimentos em \n Renda Variável: como \n o ciclo de juros \n impacta os resultados \n das empresas&
-PALESTRANTE = Roberto Esteves \n Sala Aroreiras&
+PALESTRANTE = Roberto Esteves&
+SALA = Sala Aroeiras&
 
 PALESTRA = 03&
 HORARIO = 16h&
 NOME = Aposentadoria do servidor com deficiência&
-PALESTRANTE = Vera Maria Corrêa Queiroz \n Sala Aroeiras&
+PALESTRANTE = Vera Maria Corrêa Queiroz&
+SALA = Sala Ipe&
+
+PALESTRA = 04&
+HORARIO = 18h&
+NOME = Gestão e Governança \n no RPPS&
+PALESTRANTE = Adriano Antônio Pazianoto&PALESTRANTE = Edler Antonio da Silva&PALESTRANTE = João Carlos Figueiredo&
+SALA = Sala Jacarandá&
+
+PALESTRA = 05&
+HORARIO = 18h&
+NOME = Longevidade Financeira: Como cuidar dos Aposentados e Pensionistas do seu RPPS&
+PALESTRANTE = Roberto Esteves&
+SALA = Sala Aroeiras&
