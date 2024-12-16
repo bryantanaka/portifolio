@@ -11,35 +11,6 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta charset="utf-8"/>
 
-        <script>
-            function toggleFullScreen() {
-                var elem = document.getElementById("gm4html5_div_id");
-                if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
-                    if (elem.requestFullscreen) {
-                        elem.requestFullscreen();
-                    } else if (elem.msRequestFullscreen) {
-                        elem.msRequestFullscreen();
-                    } else if (elem.mozRequestFullScreen) {
-                        elem.mozRequestFullScreen();
-                    } else if (elem.webkitRequestFullscreen) {
-                        elem.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
-                    }
-                } else {
-                    if (document.exitFullscreen) {
-                        document.exitFullscreen();
-                    } else if (document.msExitFullscreen) {
-                        document.msExitFullscreen();
-                    } else if (document.mozCancelFullScreen) {
-                        document.mozCancelFullScreen();
-                    } else if (document.webkitExitFullscreen) {
-                        document.webkitExitFullscreen();
-                    }
-                }
-            }
-        </script>
-
-	    <button onclick="toggleFullScreen()">Toggle Full Screen</button>
-
         <!-- Builtin injector for disabling cache -->
         <meta http-equiv="pragma" content="no-cache"/>
 
@@ -119,22 +90,34 @@
     
 
     <body>
-        <div style="transform: scale(0.1);" class="gm4html5_div_class" id="gm4html5_div_id">
+        <div class="gm4html5_div_class" id="gm4html5_div_id">
             
             <!-- Builtin injector for splash screen -->
             
 
             <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="1440" height="2560" style="position: absolute; top: 50%; left: 50%; bottom: -50%; right: -50%; transform: translate(-50%, -50%);">
+            <canvas id="canvas" width="1080" height="1920" >
                 <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
 
         <!-- Run the game code -->
-        <script type="text/javascript" src="html5game/20_congresso_apeprem_2024.js?cachebust=1120586195"></script>
+        <script type="text/javascript" src="html5game/testeSorteio.js?cachebust=211836423"></script>
 
         <!-- Builtin injector for injecting runner path -->
         
+        <script>
+            // Função para verificar e aplicar estilos dinâmicos
+            function applyDynamicStyles() {
+                var canva = document.getElementById("canvas");
+                canva.style.width = 'auto';
+                canva.style.height = '100%';
+            }
+
+            // Aplicar estilos dinâmicos na inicialização e sempre que a janela for redimensionada
+            window.addEventListener('resize', applyDynamicStyles);
+            applyDynamicStyles(); // Chamar a função uma vez na inicialização
+        </script>
 
         <script>window.onload = GameMaker_Init;</script>
 
