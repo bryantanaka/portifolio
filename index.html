@@ -96,15 +96,20 @@
             
 
             <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="1080" height="1920" >
+            <canvas id="canvas" width="1080" height="1920" style="position: absolute; top: 50%; left: 50%; bottom: -50%; right: -50%; transform: translate(-50%, -50%);">
                 <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
 
         <!-- Run the game code -->
-        <script type="text/javascript" src="html5game/testeSorteio.js?cachebust=211836423"></script>
+        <script type="text/javascript" src="html5game/testeSorteio.js?cachebust=256294906"></script>
 
         <!-- Builtin injector for injecting runner path -->
+        
+
+        <script>window.onload = GameMaker_Init;</script>
+
+        <!-- Builtin injector for injecting google analytics code -->
         
         <script>
             // Função para verificar e aplicar estilos dinâmicos
@@ -118,11 +123,6 @@
             window.addEventListener('resize', applyDynamicStyles);
             applyDynamicStyles(); // Chamar a função uma vez na inicialização
         </script>
-
-        <script>window.onload = GameMaker_Init;</script>
-
-        <!-- Builtin injector for injecting google analytics code -->
-        
 
     </body>
 
