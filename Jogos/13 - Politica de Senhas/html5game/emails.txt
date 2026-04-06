@@ -1,0 +1,402 @@
+TIPOEMAIL = 0&
+ENDERECOEMAIL = a.silva@bomjesus.br&
+PERSONAGEM = 6&
+TITULO = ENTREGA DE TRABALHO – PRAZO FINAL&
+CONTEUDO = Olá, queridos alunos. \n Escrevo este e-mail para avisar que a entrega final do trabalho de História será na próxima sexta. Não serão aceitos trabalhos após essa data. \n Vejo vocês na próxima aula! \n Prof.ª A. Silva&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+ENDERECOEMAIL = amiga.aluno@gmail.com&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+PERSONAGEM = 1&
+PERSONAGEM = 2&
+PERSONAGEM = 3&
+TITULO = ANIVERSÁRIO SURPRESA – PREPARATIVOS&
+CONTEUDO = Olá, pessoal. \n Sábado vamos preparar a festa surpresa da Carol. Anexo encaminho um documento com a lista contendo todos os participantes e o prato que cada um deve levar. \n Espero todos vocês! \n Bjos, bjos!&
+ANEXO = lista convidados.doc&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+ENDERECOEMAIL = amiga.aluno@gmail.com&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+ENDERECOEMAIL = outra.amiga@gmail.com&
+ENDERECOEMAIL = outro.amigo@gmail.com&
+PERSONAGEM = 1&
+PERSONAGEM = 2&
+PERSONAGEM = 3&
+PERSONAGEM = 9&
+PERSONAGEM = 10&
+TITULO = O DIA DO ACAMPAMENTO ESTÁ CHEGANDO!&
+CONTEUDO = Olá, tudo bem? \n O dia do nosso acampamento está chegando e queria lembrar os itens que não podem faltar em sua mochila: \n -   repelente; \n -   saco de dormir; \n -   lanterna; \n -   produtos de higiene. \n Fique atento ao horário, pois nossa carona não poderá ficar esperando e deverá sair pontualmente no horário combinado. \n Te vejo lá!&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = p.souza@bomjesus.br&
+PERSONAGEM = 5&
+TITULO = REUNIÃO DE ESTUDOS&
+CONTEUDO = Olá, alunos. \n Na próxima quinta-feira, iremos nos reunir para conversar a respeito do Projeto de Iniciação Científica. Caso já tenha feito o pré-projeto, podemos discutir e trocar ideias para os próximos passos. Lembrando que a conversa será na sala de inovação às 14h30. \n Atenciosamente, \n Prof. P. Souza.&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = vendedor@tudobarato.com.br&
+PERSONAGEM = 7&
+TITULO = ORÇAMENTO N.º 23 302 – TV PLASMA&
+CONTEUDO = Caro cliente, \n Conforme conversamos em sua última visita, envio o orçamento dos modelos de TV’s de plasma. \n Caso queira mais informações ou deseje fazer a compra on-line, acesse o nosso site: https://www.tudobarato.com.br. \n Fico à disposição para quaisquer dúvidas. \n Vendedor tudobarato.&
+ANEXO = orcamento_23302.pdf&
+LINK = https://www.tudobarato.com.br&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = p.souza@bomjesus.br&
+PERSONAGEM = 5&
+TITULO = CAMPEONATO DE XADREZ&
+CONTEUDO = Olá, aluno. \n O campeonato de xadrez iniciará neste trimestre. Por isso, nossas aulas voltam a ser todas as quintas-feiras. Traga os livros e o tabuleiro, pois vamos iniciar o treinamento intensivo. \n Confirme sua presença. \n Fico no aguardo. \n Prof. P. Souza&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = vendedor@tudobarato.com.br&
+PERSONAGEM = 7&
+TITULO = NOVIDADES NA TUDO BARATO&
+CONTEUDO = Caro cliente, \n Queremos compartilhar as promoções deste mês! Acesse o site: https://www.tudobarato.com.br. \n Caso não queira mais receber nossos informativos, basta cancelar a permissão acessando o SAC: https://www.tudobarato.com.br/sac. \n Fico à disposição para quaisquer dúvidas. \n Vendedor tudobarato.&
+LINK = https://www.tudobarato.com.br&
+LINK = https://www.tudobarato.com.br/sac&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = mae.aluno@gmail.com&
+PERSONAGEM = 4&
+TITULO = FOTOS DA FAMÍLIA – CHURRASCO DE DOMINGO&
+CONTEUDO = Oi, meu anjo. \n Estou encaminhando as fotos do encontro da família para que salve em nosso drive. Ah, depois compartilhe as fotos com a sua irmã! \n Bjos, \n Mamãe.&
+ANEXO = churrasco_01.jpg&
+ANEXO = churrasco_02.jpg&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = pai.aluno@gmail.com&
+PERSONAGEM = 0&
+TITULO = UTILIZAÇÃO DO COMPUTADOR&
+CONTEUDO = Olá, filhão! \n Já falamos algumas vezes sobre os horários de uso do computador. Nesta semana, vou precisar utilizá-lo, ok? Depois mando mensagem pra te avisar quando estiver liberado. \n Abraço! \n Papai.&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+PERSONAGEM = 1&
+PERSONAGEM = 3&
+TITULO = FUTEBOL NO SÁBADO&
+CONTEUDO = Oi, tudo bem? \n Sabemos que você não é nenhum Messi, rs! Mas a gente precisa de você na partida do próximo sábado, hein! Quem ganhar vai pra final. Vê se não esquece a caneleira novamente kkkk! \n Abraço! \n Amigo.&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = devolucoes@bibliotecamunicipal.com.br&
+PERSONAGEM = 8&
+TITULO = LIVRO EM ATRASO – BIBLIOTECA&
+CONTEUDO = Caro usuário, \n Gostaríamos de lhe informar que o livro O pequeno príncipe está em atraso. Devemos salientar que atrasos são passíveis de multa diária. \n Nosso horário de atendimento é das 9h às 17h, de segunda a sábado. \n Atenciosamente, \n Carmem Lamen – Bibliotecária&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = loterias.eua@loterias.com.br&
+ENDERECOEMAIL = loterias.eua@loterias.com.br&
+ENDERECOEMAIL = loterias.eua@loterias.com.br&
+PERSONAGEM = 0&
+PERSONAGEM = 4&
+PERSONAGEM = 5&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [0]&
+TITULO = PARABÉNS, VOCÊ É O MAIS NOVO MILIONÁRIO!&
+CONTEUDO = Parabéns! Você foi um dos sorteados pela Loteria Americana! Anualmente, um sorteio é realizado com participação de toda a América Latina. São diversos prêmios com valores que podem chegar a 2 MILHÕES DE DÓLARES. Clique no link abaixo, confirme seus dados e veja qual foi o valor da sua bolada! \n http://www.lotericamericana.com.br/suabolada/devilform/dados&
+LINK = http://www.lotericamericana.com.br/suabolada/devilform/dados&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = vendedor21w@comercioestelar.com&
+ENDERECOEMAIL = vendedor21w@comercioestelar.com&
+ENDERECOEMAIL = vendedor21w@comercioestelar.com&
+ENDERECOEMAIL = vendedor21w@comercioestelar.com&
+PERSONAGEM = 1&
+PERSONAGEM = 5&
+PERSONAGEM = 7&
+PERSONAGEM = 8&
+DISFARCE = [0,3]&
+DISFARCE = [1,4]&
+DISFARCE = [2]&
+TITULO = ATENÇÃO – AVISO DE COMPRA NO SITE&
+CONTEUDO = A compra feita na loja Maracutaia Móveis foi aprovada no valor de R$ 5 234,43. Anexo encaminho o comprovante de pagamento e a nota fiscal. Caso não tenha feito a compra, favor reportar através da sua bandeira de cartão pelo link abaixo. \n Link: http://www.cartoesdescredito.net_12390488ddjfo1999dddff171fkljsioodl/voucompraremseunome.exe&
+ANEXO = notafiscal019223.exe comprovantedecompra_32930.exe&
+LINK = http://www.cartoesdescredito.net_12390488ddjfo1999dddff171fkljsioodl/voucompraremseunome.exe&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = get.all.239483@fofocando.com.br&
+ENDERECOEMAIL = get.all.239483@fofocando.com.br&
+ENDERECOEMAIL = get.all.239483@fofocando.com.br&
+ENDERECOEMAIL = get.all.239483@fofocando.com.br&
+PERSONAGEM = 1&
+PERSONAGEM = 6&
+PERSONAGEM = 7&
+PERSONAGEM = 8&
+DISFARCE = [0,3]&
+DISFARCE = [1,4]&
+DISFARCE = [2]&
+TITULO = O NOVO VÍDEO DA TAYLOR SUÍTE VAZOU!&
+CONTEUDO = A sua espera acabou! \n O novo clipe do hit de sucesso I gave you my heart, but you stole my personal informations da popstar Taylor Suíte está dando o que falar. Assista já sem precisar aguardar o lançamento oficial!&
+ANEXO = vídeo_taylor.exe&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = interpol123@gmail.com&
+ENDERECOEMAIL = interpol123@gmail.com&
+PERSONAGEM = 0&
+PERSONAGEM = 4&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [0]&
+TITULO = COMUNICADO DA INTERPOL – SEU PASSAPORTE SERÁ CONFISCADO!&
+CONTEUDO = O comunicado oficial n.º 239445-4 informa que, por consequência e mérito, seu nome foi inserido na lista laranja, gerando uma série de restrições. Por isso, este e-mail é uma convocação para uma audiência e o não comparecimento irá acarretar o confisco do passaporte. Você deverá fazer um pré-cadastro para agendamento da audiência no link abaixo: \n http://www3.interpol.com.br/form_dados \n Atenciosamente, \n Delegado Josnir Leocádio Soupreé – INTERPOL&
+LINK = http://www3.interpol.com.br/form_dados&
+
+TIPOEMAIL = 1&
+ENDERECOEMAIL = vendedor21w@comercioestelar.com&
+PERSONAGEM = 3&
+DISFARCE = [0]&
+DISFARCE = [2]&
+DISFARCE = [1]&
+TITULO = COMPRA AUTORIZADA – LAVA-LOUÇA 10 KG&
+CONTEUDO = Informativo de autorização da compra, no cartão de crédito, de uma máquina LAVA-LOUÇA 10 kg na loja Império dos Cosméticos. \n Valor autorizado: R$ 5 356,00 \n Caso não tenha feito a compra, favor solicitar o cancelamento via atendimento ao consumidor: \n telefone: (65) 339448-33933 ou SAC on-line: http://www.imperiodoscosmeticos.net.br&
+LINK = http://www.imperiodoscosmeticos.net.br&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = comercial@tudobarato2.com.br&
+PERSONAGEM = 1&
+DISFARCE = [1,4]&
+DISFARCE = [2]&
+DISFARCE = [0,3]&
+TITULO = NÃO PERCA ESTA OPORTUNIDADE!&
+CONTEUDO = A LL do Brasil está com uma promoção que você não pode perder: \n NOTEBOOK TOP! de R$ 5 980,00 por apenas R$ 199,00. \n Entre em nossa loja on-line e aproveite agora mesmo! \n Clique aqui: http://www.ligadosladroesdobrasil.com.br. \n Caso não consiga visualizar o site, baixe nosso app.&
+ANEXO = LAPP.exe&
+LINK = http://www.ligadosladroesdobrasil.com.br&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = professora@bomjezuis.br&
+PERSONAGEM = 2&
+DISFARCE = [0]&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [4]&
+TITULO = NOTAS DO 3.º TRIMESTRE&
+CONTEUDO = Olá, meu aluno querida. \n Aqui ser seu professora, também querida. Quero informar você, que você tirou a melhor nota mais grande. Baixe o novo sistema de notas e veja todos os nota do trimestre. \n Atenciosamente, \n Sua professora de verdade.&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = 123edrwsd@hipercatfish.com&
+PERSONAGEM = 1&
+DISFARCE = [1,4]&
+DISFARCE = [2]&
+DISFARCE = [0,3]&
+TITULO = OI, COMO VOCÊ ESTÁ?&
+CONTEUDO = Oi, tudo bem? Como você está? Espero que esteja bem. \n Estou entrando em contato para compartilhar as fotos do nosso último encontro, elas estão no drive compartilhado. Espero que curta! \n http://www.fotoscompartilhadas.com.br/nossasfotos.exe&
+ANEXO = http://www.fotoscompartilhadas.com.br/nossasfotos.exe&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = amigo201a@gmail.com&
+PERSONAGEM = 2&
+DISFARCE = [0]&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [4]&
+TITULO = ME AJUDA, POR FAVOR? PROVA SURPRESA!&
+CONTEUDO = Olá, sou seu amigo da escola. Você está sabendo da prova de amanhã? \n Recebi este simulado para estudar e estou compartilhando com você. Não esqueça de se cadastrar antes de acessar. É rapidinho! \n Todo o conteúdo da prova está bem explicado! Eu consegui estudar e aprender tudo bem rápido. \n http://www.tiredez.com/22894444/33904490/cadastro&
+LINK = http://www.tiredez.com/22894444/33904490/cadastro&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = get.all.239483@fofocando.com.br&
+PERSONAGEM = 1&
+DISFARCE = [1,4]&
+DISFARCE = [2]&
+DISFARCE = [0,3]&
+TITULO = VÍDEO MAIS ENGRAÇADO DA INTERNET – ASSISTA!&
+CONTEUDO = Todos os vídeos mais acessados da internet estão na plataforma NÃO PARE DE RIR! \n É totalmente gratuita e pode ser acessada em qualquer lugar. Venha rir com a gente! \n http://www.trsddd.net/1243255/44533/344553&
+ANEXO = lololol.exe&
+LINK = http://www.trsddd.net/1243255/44533/344553&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = contato@governofederall.com.br&
+PERSONAGEM = 2&
+DISFARCE = [0]&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [4]&
+TITULO = SEU DADOS FORAM ROUBADOS!&
+CONTEUDO = O Governo Federal vem por meio deste e-mail informar que o Cadastro Único Federal sofreu um ataque cibernético, resultando em perda de informações sensíveis. Constatamos que seus dados foram apagados. \n Por consequência do ocorrido, convocamos você para um recadastramento. Utilize o formulário do Sistema Único de Cadastramento: governofederall.com.br/cadastramento2. \n Governo Federal&
+LINK = governofederall.com.br/cadastramento2&
+
+TIPOEMAIL = 1&
+ENDERECOEMAIL = vendedor21w@comercioestelar.com&
+PERSONAGEM = 3&
+DISFARCE = [0]&
+DISFARCE = [2]&
+DISFARCE = [1]&
+TITULO = SUPEROFERTA DE JOGOS: DESCONTOS DE ATÉ 90%!&
+CONTEUDO = O MAGAZINE Z está com promoção de jogos com descontos de até 90%: \n TICARACATICA 1 – A missão – de R$ 200,00 por R$ 40,00. \n TICARACATICA 2 – A segunda missão – de R$ 200,00 por R$ 40,00. \n TICARACATICA 3 – É muita missão - de R$ 200,00 por R$ 40,00. \n Entre em nossa loja on-line e aproveite agora mesmo! \n Clique aqui: http://www.magazinez.com.br.&
+LINK = http://www.magazinez.com.br&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = 123edrwsd@hipercatfish.com&
+PERSONAGEM = 0&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [0]&
+TITULO = GANHE UM VIDEOGAME HOJE!&
+CONTEUDO = A NITONY do Brasil está sorteando cinco CONSOLES SUPERBOX 3 com dois controles para comemorar seus 20 anos de lançamento! \n Preencha o formulário e participe! \n Sorteio dia 20 deste mês! \n http://www.nitonybrazil.com.br/formulario.&
+LINK = http://www.nitonybrazil.com.br/formulario&
+
+TIPOEMAIL = 1&
+ENDERECOEMAIL = comercial@tudobarato2.com.br&
+PERSONAGEM = 3&
+DISFARCE = [0]&
+DISFARCE = [2]&
+DISFARCE = [1]&
+TITULO = COMPRA APROVADA NO VALOR DE 4 000,00 REAIS&
+CONTEUDO = Informativo de autorização da compra no seu cartão de crédito MESTRE PLATINUM de uma TV ULTRA HD MEGA PLUS 55”. \n Valor autorizado: R$ 4 000,00. \n Caso não tenha feito a compra, favor solicitar o cancelamento via atendimento ao consumidor: \n telefone (31) 339448-33933 ou SAC: \n http://www.magazineruiz.net/atendimento&
+LINK = http://www.magazineruiz.net/atendimento&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = get.all.239483@fofocando.com.br&
+PERSONAGEM = 2&
+DISFARCE = [0]&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [4]&
+TITULO = AJUDE AS CRIANÇAS DO GAMBÃO DO SUL&
+CONTEUDO = Hello, \n I could be stealing, I could be doing illegal things, but no. \n I'm here to ask for help for these needy children who need the human warmth that only people like you can give. \n Your help is very important to guarantee a future for these children, victims of the fate that plagues this country. \n Donate via pix (41) 92229 0002. \n The children thank you!&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = outra.amiga@gmail.com&
+ENDERECOEMAIL = outro.amigo@gmail.com&
+PERSONAGEM = 9&
+PERSONAGEM = 10&
+TITULO = TE ESPERO NO RECREIO&
+CONTEUDO = Olá, temos que nos encontrar no recreio, preciso devolver o seu mangá! Amanhã sem falta! \n Até logo!&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = vovo.dulce@gmail.com&
+PERSONAGEM = 11&
+TITULO = AJUDE A VOVÓ&
+CONTEUDO = Olá, meu docinho! \n Estou com problemas para usar o computador novo. Você poderia me ajudar? \n Espero você amanhã! Traga bolo, pois a vovó não está com vontade de cozinhar. \n Beijinhos.&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = suporte@superjogos.com&
+PERSONAGEM = 7&
+TITULO = LANÇAMENTO DO NOVO JOGO XISTENDO 5&
+CONTEUDO = Olá. \n Como você solicitou, queremos informar que o lançamento da Xistendo 5 chegou em nossa loja. \n Aguardamos a sua visita. \n  Atenciosamente, \n Superjogos.&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = contato@governofederall.com.br&
+ENDERECOEMAIL = 123edrwsd@hipercatfish.com&
+PERSONAGEM = 0&
+PERSONAGEM = 4&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [0]&
+TITULO = VOCÊ DÁ VALOR AOS SEUS DADOS?&
+CONTEUDO = Olá. \n Por meio deste e-mail informamos que seus dados foram vendidos para um site estrangeiro. \n  Para evitar que suas informações sejam utilizadas por criminosos, clique no link e faça seu cadastro na Interpol. \n  Atenciosamente, \n Sr. Smith.&
+LINK = http://www.porsuacontaerisco.com/229384747/interpol&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = get.all.239483@fofocando.com.br&
+ENDERECOEMAIL = propraganda@tronodosmagosdragoes.net&
+ENDERECOEMAIL = propraganda@tronodosmagosdragoes.net&
+PERSONAGEM = 1&
+PERSONAGEM = 5&
+PERSONAGEM = 8&
+DISFARCE = [1,4]&
+DISFARCE = [2]&
+DISFARCE = [0,3]&
+TITULO = NOVA TEMPORADA DE TRONO DOS DRAGÕES DA TERRA DE FOGO&
+CONTEUDO = Já está disponível a nova temporada do sucesso mundial que ganhou o Festival de Taubaté: Trono dos dragões da terra de fogo. \n  Não pague nada! Clique no link, acesse o player e assista com exclusividade&
+LINK = http://www.tronodosmagosdragoestemp2.net/17171717171717171dados.exe&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = get2314s@loujinha.com.br&
+ENDERECOEMAIL = news@muamba.com&
+ENDERECOEMAIL = get2314s@loujinha.com.br&
+PERSONAGEM = 2&
+PERSONAGEM = 5&
+PERSONAGEM = 6&
+DISFARCE = [0]&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [4]&
+TITULO = COMPRA NO EXTERIOR SEM IMPOSTOS É NA MUAMBA.COM&
+CONTEUDO = Caro cliente, \n  estamos lançando a nova plataforma de compras com mais de 200 mil produtos em promoção. \n Para sua primeira compra, temos uma oferta exclusiva: \n  Tablet SenSang AX209 \n de: R$ 3 989,00 \n por: R$ 59,00 \n  Aproveite agora mesmo!&
+LINK = www.100100tido.com/cadastro.exe&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = a.silva@bomjesus.br&
+PERSONAGEM = 6&
+TITULO = ATIVIDADE EXTRA – ROBÓTICA&
+CONTEUDO = Olá. \n Amanhã iniciaremos as aulas de robótica. Tragam o kit e as apostilas. \n Além disso, ocorrerá a escolha dos projetos para certificação final. Pensem em um projeto com o tema: “Mudança climática: o que a tecnologia pode fazer para ajudar o planeta?”. \n Até lá! \n Professora de robótica.&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+ENDERECOEMAIL = amiga.aluno@gmail.com&
+ENDERECOEMAIL = amigo.aluno@gmail.com&
+ENDERECOEMAIL = outra.amiga@gmail.com&
+ENDERECOEMAIL = outro.amigo@gmail.com&
+PERSONAGEM = 1&
+PERSONAGEM = 2&
+PERSONAGEM = 3&
+PERSONAGEM = 9&
+PERSONAGEM = 10&
+TITULO = MUDANÇA DE HORÁRIO – GRUPO DE PESQUISA&
+CONTEUDO = Olá, pessoal do grupo mais legal da escola, rs! \n Preciso desmarcar a nossa próxima reunião, meu pai está gripado e não poderá me levar. Podemos marcar para a próxima semana? Obrigado. \n Observação: mandei mensagem no grupo do WhatsApp também! \n Agradeço a compreensão. \n Até logo!&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = gerente@nativodigital.com.br&
+PERSONAGEM = 12&
+TITULO = DICAS DE SEGURANÇA – BANCO NATIVODIGITAL&
+CONTEUDO = Querido correntista, queremos relembrar alguns cuidados para a segurança da sua conta. Fique atento aos itens a seguir. \n   1. Nosso banco não solicita senhas por telefone. \n   2. Não compartilhamos nem pedimos informações via mensagens. \n   3. Não pedimos pix para pagamentos. \n Caso tenha recebido alguma dessas solicitações, tome cuidado, pois é golpe. Denuncie! \n Atenciosamente, \n BANCO NATIVODIGITAL – Segurança da informação.&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = p.souza@bomjesus.br&
+PERSONAGEM = 5&
+TITULO = CERIMÔNIA NA CAPELA SÃO BENTO&
+CONTEUDO = Queridos alunos, a missa em celebração ao dia do professor acontecerá no dia 13 de outubro. \n O culto iniciará às 9 horas. \n Paz e Bem! \n Professor – Ensino Religioso.&
+
+TIPOEMAIL = 0&
+ENDERECOEMAIL = comercial@modaz.loja&
+PERSONAGEM = 7&
+TITULO = IMPERDÍVEL! NOVA COLEÇÃO OUTONO E INVERNO DA MODA Z &
+CONTEUDO = A nova coleção da Moda Z traz cor e conforto, além de preços baixos. Confira toda a coleção masculina e feminina em nosso site. \n A coleção chegou sem perder o calor humano. Doe peças antigas e receba um desconto em sua compra! \n Saiba mais sobre a promoção em nosso site. \n Link: https://www.modaz.com.br \n Esperamos você, \n MKT Moda Z.&
+LINK = https://www.modaz.com.br&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = consultoriaa17@confiaemmim.com.br&
+ENDERECOEMAIL = consultoriaa17@confiaemmim.com.br&
+PERSONAGEM = 5&
+PERSONAGEM = 8&
+TITULO = GANHE MUITO DINHEIRO COM A NOSSA CONSULTORIA&
+CONTEUDO = Com apenas 300 reais, você pode ganhar 3 mil reais por dia ao comprar ações na bolsa virtual de valores das Ilhas Canárias. \n Isso mesmo! Lucros de 3 mil por dia! \n Ao final de um mês, contando os finais de semana, você terá o lucro líquido de até um milhão, livre de taxas adicionais ou impostos. \n Estamos lançando uma promoção para novos investidores que desejam mudar o mindset. \n Envie um pix de apenas 20 reais para a chave (e-mail): falacomopai@consultoriascaixaeconomicadesurpresas.com e receba uma apostila com detalhes e dicas para iniciar sua carreira como investidor virtual de valores. \n Para mais informações, clique no link. \n Link: www.vaificarsemos320.com/cadastro&
+LINK = www.vaificarsemos320.com/cadastro&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = contato@governofederall.com.br&
+ENDERECOEMAIL = 123edrwsd@hipercatfish.com&
+PERSONAGEM = 0&
+PERSONAGEM = 4&
+DISFARCE = [1,3]&
+DISFARCE = [2]&
+DISFARCE = [0]&
+TITULO = COOPERATIVA DE CRÉDITO – EMPRÉSTIMO APROVADO&
+CONTEUDO = Bom dia. \n Informamos que o crédito solicitado em nossa Instituição foi aprovado. \n Valor do empréstimo: R$ 30 000,00. \n Creditado na conta: \n CC 003928-1 \n Ag 171 \n Cooperativa de Crédito Nacional do México \n Caso não tenha feito a solicitação, entre em contato conosco pelo canal Ouvidoria de Crédito. \n Link: www.cooperativadefachada.net.br/ouvidoria.exe&
+LINK = www.cooperativadefachada.net.br/ouvidoria.exe&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = convocacao@iluminights.org&
+PERSONAGEM = 4&
+PERSONAGEM = 6&
+TITULO = CONVITE PARA A NOVA ORDEM – OS ILUMINIGHTS&
+CONTEUDO = Ordem e luz! \n Através dos tempos, pessoas noturnas, iluminadas pela luz branca da lua boreal, nascem com o propósito de trazer ordem e sabedoria para a humanidade. \n O conclave dos 7 Superiores Celestiais, que acontece a cada 7 anos, em uma segunda-feira, recebe a revelação dos nomes de todos os indivíduos iluminados, para que sejam convidados para a Ordem Iluminight. \n Talvez você já tenha sentido que não é uma pessoa comum, mas alguém nascido com um propósito superior. Hoje este e-mail confirma suas suspeitas e convoca você, um ser iluminado, para se unir aos seus pares na Ordem Iluminight. \n Saiba mais sobre o seu destino e sobre os benefícios de fazer parte da maior ordem gnóstica mundial. \n Para entrar, preencha o formulário. \n Você receberá a carteirinha de membro em sua casa. \n Link: www.acrediteemtudo.com/ilmunights/leads/cadastro.exe \n Que a Mãe Branca Boreal lhe esclareça! \n 6.º Superior Celestial \n Gerente de MKT.&
+LINK = www.acrediteemtudo.com/ilmunights/leads/cadastro.exe&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = bob.bronson@yahoo.com.br&
+PERSONAGEM = 6&
+PERSONAGEM = 7&
+TITULO = PRECISO DE SUA AJUDA!&
+CONTEUDO = Olá, meu nome é Bob Bronson e moro em Auckland, na Nova Zelândia. \n á uma semana, recebi uma herança no valor de 3 bilhões de Tasmanis (moeda da Nova Zelândia), que em dólares equivale a 30 milhões. \n Nos últimos anos, vivo com dificuldades financeiras e não tenho o valor para pagar os impostos referentes ao inventário, por isso, não posso tomar posse da herança. \n Busco ajuda para receber esse valor. Estou disposto a repassar 5 milhões de dólares pela ajuda. \n O valor dos impostos é de $ 569.90. Se estiver disposto a me ajudar, favor fazer o pix para a chave (e-mail): bob.bronson@yahoo.com.br. \n Me envie o comprovante com a sua conta bancária para que eu possa depositar o valor oferecido pela ajuda. \n Agradeço imensamente, \n Bob Bronson.&
+
+TIPOEMAIL = 2&
+ENDERECOEMAIL = tentat1v4@sitezon.com.br&
+PERSONAGEM = 6&
+TITULO = DESCONTOS EXCLUSIVOS NO SITEZON PRIME&
+CONTEUDO = Assine hoje o clube de descontos Sitezon e seja um membro prime! \n Descontos de até 45% em brinquedos e jogos. \n Descontos de até 70% em roupas. \n Descontos de até 90% em celulares. \n Saiba mais sobre o clube Sitezon clicando no link. \n Link: www.sitezon.com.br/acrediteprime.exe \n Cadastre-se hoje e receba um brinde! \n Equipe Sitezon.&
+LINK = www.sitezon.com.br/acrediteprime.exe&

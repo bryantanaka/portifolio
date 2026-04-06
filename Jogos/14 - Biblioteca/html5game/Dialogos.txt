@@ -1,0 +1,23 @@
+CENA = 0&
+GATILHO = 0&TEXTO = — Onde eu estou? O que estou fazendo neste lugar? Preciso de ajuda para sair daqui!&ENDACTION = -1&
+GATILHO = 1&TEXTO = — Não encontro uma porta ou janela. Não lembro como entrei aqui, mas se entrei… posso sair! \n Deve ter uma saída escondida.&ENDACTION = -1&
+GATILHO = 2&TEXTO = — Esse pergaminho sobre a mesa… tem meu nome nele.&ENDACTION = obj_pergaminho&
+GATILHO = 3&TEXTO = — Tem um texto… hum, vou ler.&ENDACTION = obj_pergaminhoAberto&
+GATILHO = 4&TEXTO = — Bem, não vejo conexão do texto com este lugar e em como ele pode me ajudar a sair daqui.&ENDACTION = -1&
+GATILHO = 5&TEXTO = — Mas espera! No texto tem a palavra máscaras… e tem máscaras venezianas ali… será uma pista?&ENDACTION = obj_mascaras&
+GATILHO = 6&TEXTO = — Que barulho foi esse? Algo emitiu um som como se fosse um dispositivo destravando, mas não vi nada acontecer, será que encontrarei por aqui outros itens descritos no texto? Será que existem mais travas? Preciso ler novamente o pergaminho!&ENDACTION = obj_busto;obj_roloFilme&
+GATILHO = 0&TEXTO = — Bingo! O barulho se repetiu, um dispositivo destravou.&ENDACTION = noone&
+GATILHO = 0&TEXTO = — Uma porta secreta! Maravilha, estou livre!&ENDACTION = obj_portaCena1&
+CENA = 1&
+GATILHO = 0&TEXTO = — Oh, não! Outro cômodo… um escritório, também sem janelas ou portas. Será que consigo sair daqui? &ENDACTION = -1&
+GATILHO = 1&TEXTO = — Mais um pergaminho com meu nome, mais um texto, deixe-me ler…&ENDACTION = obj_pombos;obj_poster;obj_revistas&
+GATILHO = 2&TEXTO = — Bingo! Um dispositivo destravou, agora faltam dois.&ENDACTION = noone&
+GATILHO = 3&TEXTO = — Onde será essa passagem? Só falta destravar mais um dispositivo.&ENDACTION = noone&
+GATILHO = 54&TEXTO = — A porta apareceu! Minha liberdade está próxima!&ENDACTION = obj_portaCena2&
+CENA = 2&
+GATILHO = 0&TEXTO = — Oh, não! Não acredito! Outro local desconhecido. Só quero sair logo desse pesadelo, mas agora preciso ter calma… ali há uma porta!&ENDACTION = -1&
+GATILHO = 0&TEXTO = — Mas está trancada. Deixe-me ver, preciso encontrar…&ENDACTION = -1&
+GATILHO = 0&TEXTO = — Aqui! O pergaminho com meu nome, vamos lá, outro texto.&ENDACTION = obj_buque;obj_quadro1;obj_quadro2&
+GATILHO = 0&TEXTO = — A porta tem trancas internas, uma acaba de destravar.&ENDACTION = noone&
+GATILHO = 0&TEXTO = — Isso, Isso… só falta mais uma. &ENDACTION = noone&
+GATILHO = 0&TEXTO = — Agora é só apertar o botão vermelho para abrir a porta! Enfim, estou livre.&ENDACTION = obj_botaoSaida&

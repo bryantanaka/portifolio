@@ -1,0 +1,108 @@
+CENA = 0&
+
+PERGUNTA = William Shakespeare, o mais famoso escritor inglês, tornou-se conhecido por todo o mundo pelos belíssimos textos que escreveu. Romeu e Julieta, sua peça mais famosa, foi inspirada em um mito grego antigo: a tragédia de Píramo e Tisbe. \n  \n De acordo com o Texto 1, por que a obra Romeu e Julieta, de William Shakespeare, faz sucesso até hoje?&
+ALTERNATIVA = Romeu e Julieta continua sendo uma obra de muito sucesso, pois atualmente as pessoas adoram ler histórias de amor como a dos personagens da obra de Shakespeare.&
+ALTERNATIVA = O fato de apresentar personagens muito divertidos e um final trágico faz a obra Romeu e Julieta ser um sucesso ainda hoje.&
+RESPOSTA = Romeu e Julieta é um sucesso, pois ainda desperta e instiga a imaginação dos leitores.&
+
+PERGUNTA = Com relação às informações contidas no Texto 1, leia as afirmativas a seguir e assinale a única opção incorreta.&
+ALTERNATIVA = O que mais encanta e inspira leitores e escritores na obra Romeu e Julieta é o grande amor entre os jovens protagonistas.&
+ALTERNATIVA = A história de Romeu e Julieta vem sendo repassada de geração para geração, pois é recontada por vários escritores que se inspiram nela.&
+RESPOSTA = A peça Romeu e Julieta trata da história de um amor impossível, o qual terá um fim esperado pelo leitor, sem maiores surpresas.&
+
+PERGUNTA = Amores impossíveis encantam os leitores de todas as épocas, pois apesar de serem menos comuns no mundo real do que na ficção, todas as pessoas enfrentam dificuldades em seus relacionamentos. A esse respeito, observe o trecho em destaque e faça o que é proposto. \n  \n “Entretanto, eles descobrem um problema: pertencem a famílias inimigas. Os dois se desesperam e pensam na separação [...].” \n  \n  O desespero é um sentimento que causa angústia e impaciência, podendo levar a consequências negativas. De que forma esse sentimento é abordado na história de Romeu e Julieta? Clique na única opção correta.&
+ALTERNATIVA = O desespero está presente na obra Romeu e Julieta quando os dois descobrem que pertencem a famílias inimigas e acreditam que a separação é o ideal.&
+ALTERNATIVA = Na obra Romeu e Julieta, o desespero está presente quando os protagonistas resolvem não se envolver mais e ficam separados para sempre.&
+RESPOSTA = O desespero é abordado na obra Romeu e Julieta com o final trágico dos protagonistas.&
+
+PERGUNTA = Como o verbo DESCOBRIR é classificado quanto à sua transitividade no trecho em destaque? Clique na única opção correta. \n  \n “Entretanto, eles descobrem um problema: pertencem a famílias inimigas. Os dois se desesperam e pensam na separação [...].”&
+ALTERNATIVA = O verbo descobrir é intransitivo, já que não precisa de complemento para completar o seu sentido.&
+ALTERNATIVA = O verbo descobrir é transitivo indireto, pois necessita de um complemento para completar seu sentido. Esse complemento liga-se ao verbo por meio da preposição.&
+ALTERNATIVA = O verbo descobrir é transitivo direto e indireto, pois precisa de dois complementos para completar seu sentido: um com preposição, outro sem preposição.&
+RESPOSTA = O verbo descobrir é transitivo direto, pois precisa de um complemento para completar seu sentido. Esse complemento liga-se ao verbo sem preposição.&
+
+PERGUNTA = Um grande amor não existe sozinho. Essa é a mensagem transmitida pela peça escrita por Shakespeare. Na Língua Portuguesa, há verbos que exigem complemento para que tenham sentido completo, esses complementos são chamados de objetos. Pensando neles, clique na única opção correta sobre o trecho a seguir. \n  \n “Entretanto, eles descobrem um problema: pertencem a famílias inimigas. Os dois se desesperam e pensam na separação [...].”&
+ALTERNATIVA = O verbo desesperar apresenta um complemento: o objeto direto “os dois”.&
+ALTERNATIVA = O verbo pertencer não apresenta complemento no trecho em destaque, logo é considerado intransitivo.&
+RESPOSTA = No trecho citado, o verbo pensar apresenta um objeto indireto: “na separação”.&
+
+CENA = 1&
+
+PERGUNTA = De acordo com o Texto 2, algumas obras de Shakespeare têm sido retextualizadas para diversos gêneros, como é o caso das versões em mangá. Assim, ocorrem adaptações nessas versões, como é possível observar no trecho em destaque. \n  \n "Romeu é vocalista de uma banda de rock, Julieta é uma fashionista adolescente."&
+ALTERNATIVA = Por se tratar do público adolescente, o texto permanece com a mesma linguagem utilizada na obra de Shakespeare.&
+ALTERNATIVA = Uma vez que é destinado ao público adolescente, a adaptação da obra sofre muitas alterações, pois precisa aproximar sua linguagem à linguagem usada pelos adolescentes de hoje em dia.&
+RESPOSTA = A linguagem sofre algumas alterações por ser destinada ao público adolescente, mas o texto do autor britânico se mantém, mesmo com alguns ajustes.&
+
+PERGUNTA = Sabemos que, diferentemente dos verbos significativos, os verbos de ligação possuem a função de conectar o sujeito às suas características, atribuindo diferentes aspectos a esses sujeitos. Dessa forma, considere o trecho em destaque e responda: que tipo de estado os verbos de ligação grifados atribuem? Clique na única opção correta. \n  \n "Romeu é| vocalista de uma banda de rock, Julieta é| uma fashionista adolescente."&
+ALTERNATIVA = Mudança de estado.&
+ALTERNATIVA = Aparência de estado.&
+RESPOSTA = Estado permanente.&
+
+PERGUNTA = No trecho a seguir, se o verbo de ligação SER fosse substituído por um verbo que indicasse aparência de estado, como ficaria a frase? Clique na única opção correta. \n  \n "Romeu é| vocalista de uma banda de rock, Julieta é| uma fashionista adolescente."&
+ALTERNATIVA = Romeu continua vocalista de uma banda de rock, Julieta continua uma fashionista adolescente.&
+ALTERNATIVA = Romeu tornou-se vocalista de uma banda de rock, Julieta tornou-se uma fashionista adolescente.&
+RESPOSTA = Romeu parece vocalista de uma banda de rock, Julieta parece uma fashionista adolescente.&
+
+PERGUNTA = As adaptações em mangá vêm fazendo sucesso, tanto que muitas novidades estão sendo lançadas. A esse respeito, observe o trecho em destaque e faça o que é proposto. \n  \n “Para breve, estão planejadas adaptações de A Tempestade, Ricardo III e Othello. Vale a pena lê-las.” \n  \n De acordo com o Texto 2, identifique a que público é destinada a coleção de Shakespeare em mangá.&
+ALTERNATIVA = Adultos.&
+ALTERNATIVA = Crianças entre 9 e 10 anos.&
+RESPOSTA = Crianças em idade escolar.&
+
+PERGUNTA = Já estudamos sobre a utilidade prática e o uso adequado dos pronomes oblíquos em textos, os quais melhoram a coesão e auxiliam na coerência textual. Considerando tais conhecimentos e o que foi discutido em sala de aula, analise o trecho em destaque e responda: a que termo se refere o pronome oblíquo grifado? \n  \n “Para breve, estão planejadas adaptações de A Tempestade, Ricardo III e Othello. Vale a pena lê-las.”|&
+ALTERNATIVA = O pronome oblíquo grifado refere-se ao público em geral.&
+ALTERNATIVA = O pronome oblíquo grifado refere-se à adaptação A tempestade.&
+RESPOSTA = O pronome oblíquo grifado refere-se às adaptações da obra de Shakespeare.&
+
+CENA = 2&
+
+PERGUNTA = Vinicius de Moraes, o poetinha, como era conhecido em sua época, escreveu muitos poemas contando lindas histórias de amor, algumas tristes e outras felizes, mas todas muito emocionantes. \n  \n “Quero a luz dos olhos meus \n Na luz dos olhos teus \n Sem mais lará-lará.” \n  \n No trecho em destaque, foi utilizada a expressão “lará-lará”. Explique o significado dessa expressão, de acordo com o contexto.&
+ALTERNATIVA = A expressão lará-lará significa, de acordo com o contexto, que o eu lírico quer ter a luz dos olhos da amada nos seus, de maneira rápida.&
+ALTERNATIVA = A expressão lará-lará significa, de acordo com o contexto, que o eu lírico quer a luz dos olhos da pessoa amada nos seus olhos, de forma calma.&
+RESPOSTA = A expressão lará-lará significa, de acordo com o contexto, que o eu lírico deseja a luz dos olhos da amada em seus olhos, sem mais situações que os impeçam.&
+
+PERGUNTA = O Texto 3 pertence ao gênero textual poema. Diante dessa informação, assinale a alternativa que possui as características desse tipo de texto.&
+ALTERNATIVA = Presença de um eu lírico e frases curtas.&
+ALTERNATIVA = Presença de rimas e um narrador.&
+RESPOSTA = Presença de versos e estrofes.&
+
+PERGUNTA = Nós estudamos os tipos de sujeito e a sua funcionalidade no contexto. A forma verbal “quero” pertence ao sujeito desinencial. Clique na única alternativa que apresenta o objetivo de se utilizar esse tipo de sujeito. \n  \n “Quero a luz dos olhos meus \n Na luz dos olhos teus \n Sem mais lará-lará.”&
+ALTERNATIVA = O sujeito desinencial é empregado para mostrar quem realizou a ação.&
+ALTERNATIVA = O sujeito desinencial é empregado, pois a identidade da pessoa a quem se refere é desconhecida.&
+RESPOSTA = O sujeito desinencial é empregado para evitar repetição desnecessária e estabelecer a coesão textual.&
+
+PERGUNTA = Leia as frases a seguir, analise os verbos e assinale o tipo de sujeito empregado nesse contexto.& 
+ALTERNATIVA = I. Eu gosto da luz dos olhos teus.&
+ALTERNATIVA = Sujeito simples*&
+ALTERNATIVA = Sujeito composto&
+ALTERNATIVA = Sujeito desinencial&
+ALTERNATIVA = Sujeito indeterminado&
+ALTERNATIVA = II. A luz dos olhos teus e a luz dos olhos meus precisam se casar.&
+ALTERNATIVA = Sujeito simples&
+ALTERNATIVA = Sujeito composto*&
+ALTERNATIVA = Sujeito desinencial&
+ALTERNATIVA = Sujeito indeterminado&
+ALTERNATIVA = III. Falaram bem de nós dois.&
+ALTERNATIVA = Sujeito simples&
+ALTERNATIVA = Sujeito composto&
+ALTERNATIVA = Sujeito desinencial&
+RESPOSTA = Sujeito indeterminado&
+
+PERGUNTA = A poesia tem como objetivo emocionar o leitor. A respeito do Texto 3, leia o trecho em destaque e faça o que é proposto. \n  \n "Ai que bom que isso é, meu Deus \n Que frio que me dá \n O encontro desse olhar." \n  \n Explique a importância do olhar no contexto da canção de Vinicius de Moraes.&
+ALTERNATIVA = O olhar, para o eu lírico, trata-se de uma forma de demonstrar o seu amor à amada.&
+ALTERNATIVA = O olhar é importante para o eu lírico, pois é uma forma de perceber o amor que a amada sente por ele.&
+RESPOSTA = Para o eu lírico, por meio do olhar é possível perceber o amor que ele e sua amada sentem um pelo outro.&
+
+PERGUNTA = O termo FRIO,| empregado no segundo verso, indica, nesse contexto, um fenômeno natural? \n  \n "Ai que bom que isso é, meu Deus \n Que frio que me dá \n O encontro desse olhar."&
+ALTERNATIVA = No contexto, a palavra frio significa um fenômeno natural porque o eu lírico sente frio quando olha para a amada.&
+ALTERNATIVA = No contexto, a palavra frio não significa um fenômeno natural, mas sim que o eu lírico é uma pessoa insensível.&
+RESPOSTA = A palavra frio, no contexto, não significa um fenômeno natural, mas sim que o olhar da pessoa amada mexe com os sentimentos do eu lírico.&
+
+PERGUNTA = Os verbos que indicam fenômenos da natureza apresentam sujeito inexistente. Além desse caso, existem outros com esse tipo de sujeito. Diante dessa informação, clique na opção em que há a explicação de mais um caso em que isso ocorre.&
+ALTERNATIVA = Ocorre sujeito inexistente quando há na oração só um núcleo.&
+ALTERNATIVA = Ocorre sujeito inexistente quando não conseguimos determinar claramente o sujeito da ação expressa pelo verbo.&
+RESPOSTA = Ocorre sujeito inexistente quando o verbo haver exprime existência ou acontecimento.&
+
+PERGUNTA = Leia as frases a seguir e assinale a única alternativa que apresenta oração sem sujeito, também chamado de sujeito inexistente.&
+ALTERNATIVA = Chove amor no coração dos apaixonados.&
+ALTERNATIVA = Nossos corações esfriaram.&
+RESPOSTA = Há muito lirismo nessa canção.&
