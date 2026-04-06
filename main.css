@@ -1,4 +1,4 @@
-/*Start global*/
+/* #region /*Start global*/
 @font-face {
     font-family: 'Yellow Rabbit';
     src: url('fontes/yellow_rabbit_-_personal_use-webfont.woff2')format('woff2'),
@@ -46,9 +46,10 @@ img {
     width: 100%;
 }
 
-/*End Global*/
+/*End Global*/ /* #endregion */
 
-/*Start reusable*/
+/* #region /*Start reusable*/
+
 .container{
     width: 80%;
     margin-left: 10%;
@@ -69,14 +70,14 @@ img {
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .section-heading h1::before,
 .section-heading h1::after{
     content: '';
     position: absolute;
-    bottom: -.5rem;
+    bottom: -1rem;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(255,255,255,.75);
@@ -92,7 +93,7 @@ img {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
-    bottom: -1rem;
+    bottom: -1.6rem;
 }
 
 .section-heading h6{
@@ -103,9 +104,9 @@ img {
 .has-margin-right{
     margin-right: .5rem;
 }
-/*End reusable*/
+/*End reusable*/ /* #endregion */
 
-/*Start header*/
+/* #region /*Start header*/
 header{
     width: 100%;
     height: 100vh;
@@ -227,10 +228,9 @@ li{
     font-weight: 300;
 
 }
-/*End header*/
+/*End header*/ /* #endregion */
 
-
-/*Start about*/
+/* #region /*Start about*/
 .sobre .container{
     display: flex;
     align-items: center;
@@ -283,9 +283,49 @@ li{
     color: #4267b2;
 }
 
-/*End about*/
+/*End about*/ /* #endregion
 
 /*Start services*/
+
+/* #region /*Start Disclaimer*/
+.disclaimer-banner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(255, 193, 7, 0.1);
+    border-left: 4px solid #ffc107;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 20px auto 30px auto;
+    max-width: 900px;
+}
+
+.disclaimer-icon {
+    font-size: 2rem;
+    flex-shrink: 0; /* Impede que o ícone seja esmagado se o texto quebrar linha */
+}
+
+.disclaimer-text {
+    font-size: 1.2rem;
+    color: #cccccc; /* Cinza claro para leitura confortável no fundo escuro */
+    line-height: 1.5;
+    text-align: left;
+}
+
+.disclaimer-text strong {
+    color: #ffc107; /* Destaca o título do aviso na mesma cor da borda */
+}
+
+/* Responsividade: Ajuste para telas menores (celulares) */
+@media (max-width: 768px) {
+    .disclaimer-banner {
+        align-items: flex-start; /* Alinha o ícone ao topo se o texto for muito longo no mobile */
+        padding: 12px 15px;
+    }
+}
+/* #endregion */
+
+/* #region /*Start sevices*/
 .minhas-habilidades{
     margin-top: 10rem;
     display: grid;
@@ -324,106 +364,388 @@ li{
     margin: auto;
     transform: rotate(-45deg);
 }
-/*End services*/
+/*End services*/ /* #endregion */
 
-/*Start portfolio*/
-.portifolio-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-}
+/* #region /*Start portfolio*/
+    /* #region */ /*Projetos Fullstack */
+    :root {
+        --primary: #0078d4; /* Azul .NET */
+        --accent: #68217a; /* Roxo C# */
+        --bg-card: #rgba(0,0,0,0.05);
+        --text: #e0e0e0;
+    }
 
-.portifolio-item:last-child{
-    margin-bottom: 0;
-}
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        padding: 2rem 0;
+    }
 
-.portifolio-image{
-    width: 50rem;
-    flex: 1;
-}
+    .project-card {
+        background: var(--bg-card);
+        border-left: 4px solid yellow;
+        border-radius: .8rem;
+        overflow: hidden;
+        text-decoration: none;
+        color: var(--text);
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
 
-.porifolio-descricao{
-    flex: 2;
-}
+    .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+        border-color: var(--primary);
+    }
 
-.portifolio-descricao h6 {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    opacity: .3;
-}
+    .project-thumb {
+        position: relative;
+        height: 180px;
+        overflow: hidden;
+    }
 
-.portifolio-descricao h1 {
-    font-size: 3rem;
-    font-weight: 300;
-    margin: 1rem 0;
-}
+    .project-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
 
-.portifolio-descricao .cta{
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #ff1493;
-    transition: color 650ms;
-}
+    .project-card:hover .project-thumb img {
+        transform: scale(1.1);
+    }
 
-.portifolio-descricao .cta:hover {
-    color: #fc0fc0;
-}
+    .thumb-overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-weight: bold;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .project-card:hover .thumb-overlay {
+        opacity: 1;
+    }
+
+    .project-header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 4px;
+    }
+
+    .project-content {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .badge {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding: 4px 10px;
+        border-radius: 6px;
+        background: rgba(0, 120, 212, 0.1);
+        border: 1px solid var(--primary);
+        color: var(--primary);
+    }
+
+    .project-card[data-stack="node"] .badge {
+        color: #68a063; /* Verde Node */
+        border-color: #68a063;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin: 0;
+        color: #ffffff;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        color: #b0b0b0;
+        margin: 0;
+    }
+
+    /* #endregion */
+    /* #region */ /*Jogos */
+    .evolution-timeline {
+        padding: 80px 0;
+        background-color: rgba(255,255,255,0.05);
+        overflow: hidden;
+    }
+
+    /* O Trilho (Container Único) */
+    .timeline-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;  
+        overflow-x: auto; 
+        gap: 30px;     
+        padding: 40px 20px;
+        scroll-snap-type: x mandatory; 
+        scrollbar-width: thin;
+    }
+
+    /* Estilização dos Cards */
+    .timeline-card {
+        position: relative;    /* Necessário para posicionar o badge do ano */
+        flex: 0 0 350px;       /* NÃO encolhe (0) e mantém largura de 350px */
+        background: #1e1e1e;
+        border-radius: 15px;
+        border: 1px solid #333;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        scroll-snap-align: start;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .timeline-card:hover {
+        transform: translateY(-10px);
+        border-color: #0078d4;
+    }
+
+    .card-image {
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-year {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: var(--primary);
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        z-index: 10;
+        font-size: 1.2rem;
+    }
+
+    .card-achievement {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background: rgba(0,0,0,0.7);
+        font-size: 1.1rem;
+        padding: 5px 10px;
+        border-radius: 4px;
+        color: #ffd700; /* Dourado para conquistas */
+    }    
+
+    .card-info {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .feature-highlight {
+        font-size: 1.2rem;
+        color: #b0b0b0;
+        line-height: 1.4;
+    }
+
+    /* Estilo para as tecnologias (GML, GLSL, WebGL) */
+    .tech-tags span {
+        font-size: 1.2rem;
+        background: #2a2a2a;
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-right: 5px;
+        color: #0078d4;
+    }
+
+    .timeline-container {
+        -ms-overflow-style: none;  /* IE e Edge */
+        scrollbar-width: none;     /* Firefox */
+    }
+
+    .timeline-container::-webkit-scrollbar {
+        display: none; /* Chrome, Safari e Opera */
+    }
+    /* #endregion */
+    /* #region */ /*Frontend */
+        /* Container do Agrupamento */
+        .project-bundle {
+            grid-column: 1 / -1; /* Faz o grupo ocupar a largura total do grid para destaque */
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px dashed #444; /* Borda tracejada dá ideia de "pacote" */
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .bundle-header {
+            margin-bottom: 25px;
+        }
+
+        .bundle-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        /* Ajustes para os mini cards dentro do bundle */
+        .project-card.mini {
+            background: #252525;
+            border: 1px solid #333;
+        }
+
+        .project-card.mini .project-image {
+            height: 100%;
+        }
+
+        .totem-card {
+            height: 100%;
+            max-height: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .totem-card .project-image {
+            flex: 0 1 auto;
+            height: auto;
+            max-height: 350px;
+        }
+
+        .totem-card .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .totem-card .project-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px;
+        }
+
+        /* Divide o grid em duas colunas */
+        .split-row {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            align-items: stretch;
+        }
+
+        .highlight-card a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /* Garante que o conteúdo dentro do link também se distribua */
+        .highlight-card .project-content {
+            flex-grow: 1;
+        }
+
+        /* Responsividade */
+        @media (max-width: 900px) {
+            .split-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .highlight-card .project-image {
+                height: 180px;
+            }
+        }
+    /* #endregion */
+
+/*End portfolio*/ /* #endregion*/
 
 
-/*End portfolio*/
+/* #region /*Start experiences*/
+    .linhadotempo ul{
+        border-left: 4px solid yellow;
+        border-radius: 16px;
+        background-color: rgba(0,0,0,0.05);
+        margin: 10px auto;
+        position: relative;
+        padding: 3rem;
+        list-style: none;
+        width: 70%;
+    }
 
-/*Start experiences*/
-.linhadotempo ul{
-    border-left: 4px solid yellow;
-    border-radius: .8rem;
-    background-color: rgba(0,0,0,0.05);
-    margin: 0 auto;
-    position: relative;
-    padding: 5rem;
-    list-style: none;
-    width: 70%;
-}
+    .linhadotempo h1{
+        margin-top: .4rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        opacity: 0.75;
+    }
 
-.linhadotempo h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    opacity: 0.75;
-}
+    .linhadotempo .achievements-list {
+        list-style: disc;
+        margin: 0;
+        padding: 10px 5px;
+        border: none;
+        border-radius: 0;
+        background: transparent;
+        width: 100%;
+    }
 
-.linhadotempo .data{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-}
+    .linhadotempo .achievements-list li {
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+        color: #b0b0b0;
+        padding-left: 10px;
+        margin-bottom: 12px;
+    }
 
-.linhadotempo .data.lasti-of-type{
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none;
-}
+    .linhadotempo .data{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        position: relative;
+    }
 
-.linhadotempo data::before,
-.linhadotempo data::after{
-    position: absolute;
-    display: block;
-    top: 50;
-    transform: translateY(-50%);
-}
+    .linhadotempo .data.lasti-of-type{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none;
+    }
 
-.linhadotempo .data::before{
-    content: attr(data-date);
-}
+    .linhadotempo data::before,
+    .linhadotempo data::after{
+        position: absolute;
+        display: block;
+        
+    }
 
-/*End experiences*/
+    .linhadotempo .data::before{
+        content: attr(data-date);
+        font-size: 1.1rem;
+    }
+/*End experiences*/ /* #endregion */
 
-/*Start contact*/
+/* #region /*Start contact*/
 .contato-heading{
     text-align: center;
 }
@@ -435,9 +757,9 @@ li{
 .fa-envelope:hover{
     color: #4267b2;
 }
-/*End contact*/
+/*End contact*/ /* #endregion */
 
-/*Start copyright*/
+/* #region /*Start copyright*/ 
 .copyright{
     width: 100%;
     text-align: center;
@@ -470,9 +792,9 @@ li{
     color: white;
 }
 
-/*End copyright*/
+/*End copyright*/ /* #endregion */
 
-/*Start animations*/
+/* #region /*Start animations*/
 
 @keyframes pulse{
     0%{
@@ -539,6 +861,7 @@ li{
 
     .linhadotempo ul{
         margin: 0 0 0 auto;
+        width: 100%;
     }
 
 }
@@ -585,10 +908,11 @@ li{
 
     .linhadotempo ul{
         font-size: 1.6rem;
+        width: 100%;
     }
 
     .linhadotempo .data::before {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     form{
@@ -598,9 +922,6 @@ li{
     .up{
         right: 2rem;
     }
-
-
-
 }
 
-/*End animations*/
+/*End animations*/ /* #endregion */
