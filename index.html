@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
+    <title>Bryan Tanaka</title>
+    <link rel="icon" type="image/x-icon" href="Images/logo.ico">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="gallery.css">
@@ -12,6 +13,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
+
+<!--#region main--> <!--Header-->
     <header>
         <div class="menu-toggler">
             <div class="bar half start"></div>
@@ -48,17 +51,17 @@
             </div>
         </div>
     </header>
+<!--#endregion-->
 
 <!--#region main--> <!--Sobre mim-->
     <section class="sobre" id="sobre">
         <div class="container">
             <div class="perfil-img">
-                <img src="https://i.ibb.co/Ksn5PQp/minha-Logo.png" alt="">
+                <img src="Images/logo.png" alt="">
             </div>
             <div class="sobre-detalhes">
                 <div class="sobre-heading">
-                    <h1>Sobre</h1>
-                    <h6>Mim</h6>
+                    <h1>Sobre mim</h1>
                 </div>
                 <p>
                     Olá, meu nome é Bryan Tanaka, tenho 25 anos, sou de Curitiba - PR, Brasil. Sou apaixonado por tecnologia e 
@@ -66,7 +69,7 @@
                     educacionais e aplicações interativas integradas a sistemas web. Atualmente estou focado nos estudos 
                     e no desenvolvimento backend, atuando na construção de APIs e sistemas corporativos, mas sigo sempre aberto
                     a desafios e oportunidades de desenvolvimento em outras stacks tecnológicas, tanto no desenvolvimento backend
-                    quanto no desenvolvimento de jogos.
+                    quanto no desenvolvimento de jogos. <br> <br> <strong>Redes sociais e currículo abaixo:</strong>
                 </p>
                 <div class="redes-sociais">
                     <ul class="nav-list">
@@ -77,6 +80,10 @@
                             <a href="https://www.instagram.com/_bryantanaka/?hl=pt-br" target="_blank" class="icon-link">
                                 <i class="fab fa-instagram"></i>
                             </a>
+
+                            <a href="Currículo Bryan Yassunori Tanaka.pdf" target="_blank" class="icon-link">
+                                <i class="fa fa-download"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -85,19 +92,21 @@
     </section>
     <!--#endregion-->
 
+<!--#region main--> <!--Disclaimer-->
 <div class="disclaimer-banner">
     <span class="disclaimer-icon">⚠️</span>
     <div class="disclaimer-text">
         <strong>Aviso Legal e Direitos Autorais:</strong> Todos os projetos exibidos nesta seção (com exceção dos títulos da Promojogos) são produtos corporativos internos, desenvolvidos exclusivamente para clientes das respectivas empresas. A exibição possui finalidade estrita de composição de portfólio. O uso, replicação ou distribuição não autorizada destes materiais constitui violação das leis de direitos autorais. Lei nº 9.610/1998.
     </div>
 </div>
+<!-- #endregion -->
 
 <!--#region main--> <!--Portifólio-->
 
     <section class="projects-backend" id="projects-lead-gen">
         <div class="section-heading">
             <h1>Projetos Fullstack</h1>
-            <h6>Frontend + WEB API e Database.</h6>
+            <h6>Frontend + WEB API e Database. <br> (Apenas frontend disponível para visualização).</h6>
         </div>
         <div class="projects-grid">
             
@@ -148,8 +157,7 @@
                         <span class="badge">SQLite</span>
                     </div>
                     <h3>Jogo promocional | FAE Business School</h3>
-                    <p>Jogo promocional desenvolvido para a FAE Business School. Jogo voltado para utilização em totens interativos, com sistema de coleta e persistência de leads.
-                        Aplicação consiste em um jogo onde o player deve chegar ao topo coletando todos os diferenciais que a FAE possui. Também possui uma tela para coleta e persistência de daods.
+                    <p>Jogo promocional desenvolvido para a FAE Business School. Jump Game voltado para utilização em totens interativos. Também possui uma tela para coleta e persistência de dados.
                         Stack tecnológica: Node.js e SQLite para persistência de dados. Aplicação funciona offline, com hospedagem diretamente no dispositivo (totem touchscreen).
                     </p>
                 </div>
@@ -166,14 +174,66 @@
     <div class="container">
         <h2 class="section-title">Alguns destaques de conquistas e jogos desenvolvidos.</h2>
         <p class="section-description">
-            Uma trajetória de mais de 8 anos e +200 jogos publicados, dando destaque a mecânicas que gostei de trabalhar, algumas técnicas novas
-            desenvolvidas e conquistas realizadas.
+            Uma trajetória de 8 anos e +200 jogos publicados, dando destaque a mecânicas que gostei de trabalhar, minha evoulução na programação,
+            algumas técnicas novas desenvolvidas e conquistas realizadas. Todos os jogos foram programados integralmente por mim, com prazo médio de 2 semanas cada. <br> <br>
+            <strong>Todos os direitos são reservados a Associação Franciscana de Ensino Senhor Bom Jesus, a distribuição ou replicação não autorizada destes jogos constitui violação das leis de direitos autorais. Lei nº 9.610/1998.</strong>
         </p>
     </div>
 
     <div class="timeline-container">
+        <!--Cidade sustentável-->
+        <a class="timeline-card" data-year="2026" href="Jogos/18 - Cidade Sustentável/index.html" target="_blank">
+            <div class="card-year">2026</div>
+            <div class="card-image">
+                <img src="Images/jogo18.png" alt="Destaque Técnico">
+                <div class="card-achievement">Full HD!</div> 
+            </div>
+            <div class="card-info">
+                <h3>Cidade Sustentável</h3>
+                <p class="feature-highlight">Jogo de simulação de desenvolvimento urbano sustentável. Primeiro jogo FHD da empresa. Suporte para fullscreen!</p> 
+                <div class="tech-tags">
+                    <span>WebGL</span>
+                    <span>GML</span>
+                    <span>1920x1080</span>
+                    <span>Fullscreen</span>
+                </div> 
+            </div>
+        </a>
+         <!--Quantos nomes diferentes-->
+        <a class="timeline-card" data-year="2025" href="Jogos/17 - Quantos Nomes Diferentes/index.html" target="_blank">
+            <div class="card-year">2025</div>
+            <div class="card-image">
+                <img src="Images/jogo17.png" alt="Destaque Técnico">
+                <div class="card-achievement">+88 mil visualizações!</div> 
+            </div>
+            <div class="card-info">
+                <h3>Quantos Nomes Diferentes</h3>
+                <p class="feature-highlight">Jogo com vários minigames. Jogo mais visto da história da empresa.</p> 
+                <div class="tech-tags">
+                    <span>WebGL</span>
+                    <span>GML</span>
+                    <span>+88 mil visualizações</span>
+                </div> 
+            </div>
+        </a>
+         <!--Cidade dos sonhos-->
+        <a class="timeline-card" data-year="2025" href="Jogos/16 - Cidade dos Sonhos/index.html" target="_blank">
+            <div class="card-year">2025</div>
+            <div class="card-image">
+                <img src="Images/jogo16.png" alt="Destaque Técnico">
+            </div>
+            <div class="card-info">
+                <h3>Cidade dos sonhos</h3>
+                <p class="feature-highlight">Jogo isométrico de montagem de uma cidade, mecânica de construção complexa e pesada.</p> 
+                <div class="tech-tags">
+                    <span>WebGL</span>
+                    <span>GML</span>
+                    <span>Simulador</span>
+                </div> 
+            </div>
+        </a>
         <!--Fontes históricas-->
-        <a class="timeline-card" data-year="2023" href="Jogos/15 - Fontes Históricas/index.html" target="_blank">
+        <a class="timeline-card" data-year="2025" href="Jogos/15 - Fontes Históricas/index.html" target="_blank">
             <div class="card-year">2025</div>
             <div class="card-image">
                 <img src="Images/jogo15.png" alt="Destaque Técnico">
@@ -191,7 +251,7 @@
             </div>
         </a>
         <!--Biblioteca-->
-        <a class="timeline-card" data-year="2023" href="Jogos/14 - Biblioteca/index.html" target="_blank">
+        <a class="timeline-card" data-year="2024" href="Jogos/14 - Biblioteca/index.html" target="_blank">
             <div class="card-year">2024</div>
             <div class="card-image">
                 <img src="Images/jogo14.png" alt="Destaque Técnico">
@@ -209,7 +269,7 @@
             </div>
         </a>
         <!--Política de senhas-->
-        <a class="timeline-card" data-year="2023" href="Jogos/13 - Politica de Senhas/index.html" target="_blank">
+        <a class="timeline-card" data-year="2024" href="Jogos/13 - Politica de Senhas/index.html" target="_blank">
             <div class="card-year">2024</div>
             <div class="card-image">
                 <img src="Images/jogo13.png" alt="Destaque Técnico">
@@ -226,11 +286,11 @@
             </div>
         </a>
         <!--Labirinto da geometria-->
-        <a class="timeline-card" data-year="2019" href="Jogos/12 - Labirinto da Geometria/index.html" target="_blank">
+        <a class="timeline-card" data-year="2023" href="Jogos/12 - Labirinto da Geometria/index.html" target="_blank">
             <div class="card-year">2023</div>
             <div class="card-image">
                 <img src="Images/jogo12.png" alt="Destaque Técnico">
-                <div class="card-achievement">+5 mil visualizações</div> 
+                <div class="card-achievement">BOTS!</div> 
             </div>
             <div class="card-info">
                 <h3>Labirinto da geometria.</h3>
@@ -238,109 +298,106 @@
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>Bots</span>
                 </div> 
             </div>
         </a>
         <!--Robôzinho carteiro-->
-        <a class="timeline-card" data-year="2019" href="Jogos/11 - Robô carteiro/index.html" target="_blank">
-            <div class="card-year">2019</div>
+        <a class="timeline-card" data-year="2020" href="Jogos/11 - Robô carteiro/index.html" target="_blank">
+            <div class="card-year">2020</div>
             <div class="card-image">
                 <img src="Images/jogo11.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Robozinho carteiro</h3>
+                <p class="feature-highlight">Mecânica diferenciada de navegação, com montagem de rotas feita pelo usuário.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
                 </div> 
             </div>
         </a>
         <!--Viajando pelo mundo-->
-        <a class="timeline-card" data-year="2019" href="Jogos/10 - Viajando pelo Mundo/index.html" target="_blank">
-            <div class="card-year">2019</div>
+        <a class="timeline-card" data-year="2023" href="Jogos/10 - Viajando pelo Mundo/index.html" target="_blank">
+            <div class="card-year">2023</div>
             <div class="card-image">
                 <img src="Images/jogo10.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
+                <div class="card-achievement">Shaders!</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Viajando pelo mundo</h3>
+                <p class="feature-highlight">Jogo com diversas mecânicas com destaque a mecânica de exploração onde utilizei shaders para desfoque da tela.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>Shaders</span>
                 </div> 
             </div>
         </a>
 
-        <a class="timeline-card" data-year="2019" href="Jogos/09 - Iniciação na comunidade religiosa/index.html" target="_blank">
-            <div class="card-year">2019</div>
+        <a class="timeline-card" data-year="2020" href="Jogos/09 - Iniciação na comunidade religiosa/index.html" target="_blank">
+            <div class="card-year">2020</div>
             <div class="card-image">
                 <img src="Images/jogo09.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
+                <div class="card-achievement">Shaders!</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Iniciação na comunidade religiosa</h3>
+                <p class="feature-highlight">Jogo utilizou os mesmos shaders do jogo anterior. Primeiro jogo isométrico que desenvolvi.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>Shaders!</span>
                 </div> 
             </div>
         </a>
 
-        <a class="timeline-card" data-year="2019" href="Jogos/08 - Espaços Geográficos/index.html" target="_blank">
-            <div class="card-year">2019</div>
+        <a class="timeline-card" data-year="2021" href="Jogos/08 - Espaços Geográficos/index.html" target="_blank">
+            <div class="card-year">2021</div>
             <div class="card-image">
                 <img src="Images/jogo08.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
+                <div class="card-achievement">Shaders!</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Espaços Geográficos</h3>
+                <p class="feature-highlight">Jogo endless run. Foi o primeiro jogo que foi implementado shaders. Foi uma inovação dentro do setor, após esse modelo vários outros jogos
+                    utilizaram shaders para efeitos parecidos.
+                </p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>Shaders!</span>
+                    <span>Open GL</span>
                 </div> 
             </div>
         </a>
 
-        <a class="timeline-card" data-year="2019" href="Jogos/07 - Ahorcado/index.html" target="_blank">
-            <div class="card-year">2019</div>
+        <a class="timeline-card" data-year="2020" href="Jogos/07 - Ahorcado/index.html" target="_blank">
+            <div class="card-year">2020</div>
             <div class="card-image">
                 <img src="Images/jogo07.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Colector de Estrellas</h3>
+                <p class="feature-highlight">Jogo estilo jogo da forca com palavras em espanhol.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
                 </div> 
             </div>
         </a>
 
-        <a class="timeline-card" data-year="2019" href="Jogos/06 - Letras e números/index.html" target="_blank">
-            <div class="card-year">2019</div>
+        <a class="timeline-card" data-year="2021" href="Jogos/06 - Letras e números/index.html" target="_blank">
+            <div class="card-year">2021</div>
             <div class="card-image">
                 <img src="Images/jogo06.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Corrida espacial</h3>
+                <p class="feature-highlight">Primeiro jogo fake endless que desenvolvi.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
                 </div> 
             </div>
         </a>
@@ -352,12 +409,11 @@
                 <div class="card-achievement">🏆 Internacionalizado</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>El sapo saltarín</h3>
+                <p class="feature-highlight">Primeiro jogo onde utilizei arquivo externo para importação de conteúdo.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
                 </div> 
             </div>
         </a>
@@ -366,32 +422,32 @@
             <div class="card-year">2019</div>
             <div class="card-image">
                 <img src="Images/jogo04.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
+                <div class="card-achievement">Livro interativo.</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Tempo Franciscano</h3>
+                <p class="feature-highlight">Primeiro livro interativo e animado do setor. Possui narrativa e atividades como jogo da memória, pintura e assimiliação de sombras.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>Livro interativo</span>
                 </div> 
             </div>
         </a>
 
-        <a class="timeline-card" data-year="2019" href="Jogos/03 - Escolinha do mar/index.html" target="_blank">
-            <div class="card-year">2019</div>
+        <a class="timeline-card" data-year="2021" href="Jogos/03 - Escolinha do mar/index.html" target="_blank">
+            <div class="card-year">2021</div>
             <div class="card-image">
                 <img src="Images/jogo03.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
+                <div class="card-achievement">História Animada</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Escolinha do mar</h3>
+                <p class="feature-highlight">Primeiro jogo com story telling que desenvolvi. Jogo com livro animado, quiz e tela de escrita.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>Animation</span>
                 </div> 
             </div>
         </a>
@@ -400,15 +456,15 @@
             <div class="card-year">2019</div>
             <div class="card-image">
                 <img src="Images/jogo02.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Cachorros ao ar livre</h3>
+                <p class="feature-highlight">Primeiro jogo que utilizei Paralaxe; Jogo estilo plataforma, com câmera seguindo o personagem, e sala bidimensional.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>View Camera</span>
+                    <span>Parallax</span>
                 </div> 
             </div>
         </a>
@@ -417,15 +473,15 @@
             <div class="card-year">2019</div>
             <div class="card-image">
                 <img src="Images/jogo01.png" alt="Destaque Técnico">
-                <div class="card-achievement">🏆 Internacionalizado</div> 
             </div>
             <div class="card-info">
-                <h3>Nome do Jogo</h3>
-                <p class="feature-highlight">Upgrade de performance com Shaders e resolução FHD.</p> 
+                <h3>Cinema!</h3>
+                <p class="feature-highlight">Primeiro jogo de plataforma que desenvolvi. Também o primeiro que usei a mecânica de efeitos.</p> 
                 <div class="tech-tags">
                     <span>WebGL</span>
                     <span>GML</span>
-                    <span>GLSL</span>
+                    <span>Effects</span>
+                    <span>View Camera</span>
                 </div> 
             </div>
         </a>
@@ -607,6 +663,8 @@
         </div>
     </section>
 <!--#endregion-->
+
+<!--#region main--> <!--Contato-->
     <section class="contato" id="contato">
         <div class="container">
             <div class="section-heading">
@@ -621,21 +679,24 @@
                             <a href="https://api.whatsapp.com/send?phone=5541998218457&text=Ol%C3%A1%20Bryan!%20Tudo%20bem%3F%20Meu%20nome%20%C3%A9%20...%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20contigo!" target="_blank" class="icon-link">
                                 <i class="fab fa-whatsapp"></i>
                             </a>
-                            <a href="Currículo Bryan Yassunori Tanaka.pdf" target="_blank" class="icon-link">
-                                <i class="fa fa-download"></i>
-                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+
+<!--#endregion-->
+
+<!--#region main--> <!--Footer-->
     <footer class="copyright">
         <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
         </div>
         <p>&copy; 2026 Bryan Tanaka | Parte do frontend do site foi gerado com auxílio de IA.</p>
     </footer>
+<!--#endregion-->
+
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -501,8 +501,8 @@ li{
 
     /* Estilização dos Cards */
     .timeline-card {
-        position: relative;    /* Necessário para posicionar o badge do ano */
-        flex: 0 0 350px;       /* NÃO encolhe (0) e mantém largura de 350px */
+        position: relative;   
+        flex: 0 0 350px;
         background: #1e1e1e;
         border-radius: 15px;
         border: 1px solid #333;
@@ -676,9 +676,7 @@ li{
             }
         }
     /* #endregion */
-
 /*End portfolio*/ /* #endregion*/
-
 
 /* #region /*Start experiences*/
     .linhadotempo ul{
@@ -755,6 +753,10 @@ li{
 }
 
 .fa-envelope:hover{
+    color: #4267b2;
+}
+
+.fa-download:hover{
     color: #4267b2;
 }
 /*End contact*/ /* #endregion */

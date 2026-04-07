@@ -8,14 +8,15 @@
         <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta charset="utf-8"/>
+        <link rel="icon" type="image/x-icon" href="../../Images/logo.ico">
 
         <!-- Set the title bar of the page -->
-        <title>Made in GameMaker Studio 2</title>
+        <title>Cinema</title>
 
         <!-- Set the background colour of the document -->
         <style>
             body {
-              background: $AAAAAA;
+              background: black;
               color:#cccccc;
               margin: 0px;
               padding: 0px;
@@ -81,5 +82,28 @@
         <!-- Run the game code -->
         <script type="text/javascript" src="html5game/cinema_.js?JUUAC=1034950843"></script>
         <script>window.onload = GameMaker_Init;</script>
+
+         <script>
+            // Função para verificar e aplicar estilos dinâmicos
+            function applyDynamicStyles() {
+                var viewportWidth = window.innerWidth;
+                var viewportHeight = window.innerHeight;
+                var canva = document.getElementById("canvas");
+
+                var dynamicCSS = document.getElementsByTagName("style");
+
+                if (viewportWidth / 4 > viewportHeight / 3) {
+                    canva.style.width = 'auto';
+                    canva.style.height = '100%';
+                } else {
+                    canva.style.width = '100%';
+                    canva.style.height = 'auto'
+                }
+            }
+
+            // Aplicar estilos dinâmicos na inicialização e sempre que a janela for redimensionada
+            window.addEventListener('resize', applyDynamicStyles);
+            applyDynamicStyles(); // Chamar a função uma vez na inicialização
+        </script>
     </body>
 </html>
