@@ -73,3 +73,31 @@ slider.addEventListener('mousemove', (e) => {
     const walk = (x - startX) * 2; // Velocidade do scroll
     slider.scrollLeft = scrollLeft - walk;
 });
+
+// Carrossel de jogos — botões de navegação
+(function () {
+  const container = document.querySelector('.timeline-container');
+  const btnLeft   = document.querySelector('.carousel-btn--left');
+  const btnRight  = document.querySelector('.carousel-btn--right');
+
+  if (!container || !btnLeft || !btnRight) return;
+
+  const scrollAmount = 420; // largura aproximada de 1 card
+
+  btnLeft.addEventListener('click', () => {
+    container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  btnRight.addEventListener('click', () => {
+    container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
+
+  // Atualiza visibilidade dos botões
+  function updateButtons() {
+    btnLeft.style.opacity  = container.scrollLeft <= 0 ? '0.3' : '1';
+    btnRight.style.opacity = container.scrollLeft + container.clientWidth >= container.scrollWidth - 1 ? '0.3' : '1';
+  }
+
+  container.addEventListener('scroll', updateButtons);
+  updateButtons();
+})();

@@ -55,7 +55,7 @@ img {
     margin-left: 10%;
     max-width: 100%;
     height: 100%;
-    margin-top: 0 auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -345,7 +345,7 @@ li{
 .habilidades h1{
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-right: 2rem -2px 2rem 0;
+    margin: 2rem -2px 2rem 0;
 }
 
 .icone-container{
@@ -371,7 +371,7 @@ li{
     :root {
         --primary: #0078d4; /* Azul .NET */
         --accent: #68217a; /* Roxo C# */
-        --bg-card: #rgba(0,0,0,0.05);
+        --bg-card: rgba(0,0,0,0.05);
         --text: #e0e0e0;
     }
 
@@ -578,13 +578,63 @@ li{
     }
 
     .timeline-container {
-        -ms-overflow-style: none;  /* IE e Edge */
-        scrollbar-width: none;     /* Firefox */
+        scrollbar-width: thin;
+        scrollbar-color: #292949 #1a1a1a;
     }
 
     .timeline-container::-webkit-scrollbar {
-        display: none; /* Chrome, Safari e Opera */
+        height: 6px;
     }
+
+    .timeline-container::-webkit-scrollbar-track {
+        background: #1a1a1a;
+        border-radius: 3px;
+    }
+    .timeline-container::-webkit-scrollbar-thumb {
+        background: #292949;
+        border-radius: 3px;
+    }
+
+    /* ── Carousel Wrapper ── */
+    .carousel-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel-btn {
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(20, 20, 20, 0.75);
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        color: #ffffff;
+        font-size: 3.5rem;
+        line-height: 1;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background 0.2s, border-color 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 8px 0;        
+    }
+
+    .carousel-btn:hover {
+        background: rgba(255, 255, 255, 0.15);
+        border-color: #ffffff;
+    }
+
+    .carousel-btn--left  { left: 8px; }
+    .carousel-btn--right { right: 8px; }
+
+    /* Esconde botões em mobile (swipe já funciona) */
+    @media (max-width: 768px) {
+        .carousel-btn { display: none; }
+    }    
     /* #endregion */
     /* #region */ /*Frontend */
         /* Container do Agrupamento */
@@ -724,7 +774,7 @@ li{
         position: relative;
     }
 
-    .linhadotempo .data.lasti-of-type{
+    .linhadotempo .data:lasti-of-type{
         padding-bottom: 0;
         margin-bottom: 0;
         border: none;
@@ -790,7 +840,7 @@ li{
 }
 
 .copyright p {
-    font-size: 1,4rem;
+    font-size: 1.4rem;
     color: white;
 }
 
@@ -858,7 +908,7 @@ li{
     }
 
     .icone-container i{
-        font-style: 4rem;
+        font-size: 4rem;
     }
 
     .linhadotempo ul{
@@ -875,11 +925,11 @@ li{
     }
 
     .landing-text h1{
-        font-style: 8rem;
+        font-size: 8rem;
     }
 
     .landing-text h6{
-        font-style: 1.4rem;
+        font-size: 1.4rem;
     }
 
     .nav-link{
