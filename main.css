@@ -235,6 +235,8 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .sobre-heading {
@@ -257,6 +259,16 @@ li{
 .perfil-img {
     flex: 1;
     margin-right: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-img img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .sobre-detalhes {
