@@ -266,8 +266,7 @@ li{
 }
 
 .perfil-img img {
-    width: 400px;
-    height: 400px;
+    width: 80%;
     object-fit: cover;
 }
 
@@ -679,6 +678,13 @@ li{
             height: 100%;
         }
 
+        .project-card.mini .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Garante que a print do site preencha o card sem distorcer */
+            display: block;
+        }
+
         .totem-card {
             height: 100%;
             max-height: 100%;
@@ -698,6 +704,7 @@ li{
             height: 100%;
             object-fit: cover;
         }
+        
 
         .totem-card .project-content {
             flex: 1;
@@ -735,6 +742,23 @@ li{
             
             .highlight-card .project-image {
                 height: 180px;
+            }
+        }
+
+        /* Estilo para celulares */
+        @media (max-width: 768px) {
+            .project-bundle {
+                padding: 10px;
+                margin: 10px;
+            }
+
+            .bundle-items {
+                grid-template-columns: 1fr; 
+                gap: 15px;
+            }
+
+            .project-card.mini .project-image {
+                height: 200px;
             }
         }
     /* #endregion */
@@ -876,6 +900,16 @@ li{
     body{
         background: linear-gradient(to bottom, #23395d, #301934);
         background-size: cover;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .sobre-heading h1{
+        font-size: 8rem;
+        opacity: .3;
     }
 
     .landing-text h1{
@@ -934,6 +968,15 @@ li{
     .menu-toggler{
         top: 2rem;
         right: 2rem;
+    }
+
+    .sobre-heading h1{
+        font-size: 4rem;
+        opacity: .3;
+    }
+
+    .container {
+        width: 100%;
     }
 
     .landing-text h1{
